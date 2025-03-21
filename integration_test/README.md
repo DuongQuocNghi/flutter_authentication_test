@@ -6,6 +6,7 @@ Thư mục này chứa các integration tests cho ứng dụng Flutter Authentic
 
 - **app_test.dart**: Kiểm tra đầy đủ các luồng xử lý chính của ứng dụng
 - **driver.dart**: File điều khiển để chạy integration tests
+- **performance_test.dart**: Kiểm tra hiệu suất
 
 ## Các luồng xử lý được kiểm tra
 
@@ -14,7 +15,7 @@ Thư mục này chứa các integration tests cho ứng dụng Flutter Authentic
    - Đăng nhập thất bại hiển thị thông báo lỗi
 
 2. **Luồng đăng ký**:
-   - Đăng ký thành công và chuyển đến trang chủ
+   - Đăng ký thành công và chuyển đến đăng nhập
 
 3. **Luồng quên mật khẩu**:
    - Gửi yêu cầu đặt lại mật khẩu thành công
